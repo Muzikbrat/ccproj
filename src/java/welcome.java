@@ -33,18 +33,7 @@ public class welcome extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
            Random rand = null;
-           int randomNum = rand.nextInt((5 - 1) + 1) + 1;
-           randomNum=2;
-           out.println("<html> <body> <h1>hello</h1>");
-           switch(randomNum)
-           {
-               case 1: out.print("<h1 style= \"color: blue \"> Yes, why not. Seems like a good idea as your stars are aligned perfectly </h1>");
-                        break;
-               case 2: out.print("<h1 style=\" colour:  green \">Maybe, your drive is positive but the path is difficult</h1>");
-                        break;
-               //case 3: out.print("");
-           }
-           out.println("</body></html>");
+           
            
         }
     }
